@@ -1,192 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Akshaya Polagoni | Portfolio</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Akshaya | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/particles.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
 </head>
+
 <body>
-<nav class="navbar">Akshaya Polagoni</nav>
 
-<section class="hero">
-  <canvas id="particles"></canvas>
-  <div class="hero-content">
-    <h1>Hi, I'm Akshaya Polagoni</h1>
-    <h2 id="typing"></h2>
-    <a href="#projects" class="btn">View Projects</a>
-    <a href="Akshaya_Resume.pdf" class="btn">Download Resume</a>
-  </div>
-</section>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-title">Akshaya</div>
+    <div class="nav-links">
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-<section id="about" class="about">
-  <h2>About Me</h2>
-  <p>Results-driven B.Tech graduate specializing in Electronics & Communication Engineering with a strong foundation in AI and Machine Learning. Proven ability to build automated solutions, analyze complex data, and deliver quantifiable results across technical projects.</p>
-  <p>I build AI-powered automation tools, intelligent systems, and data-driven applications that solve real-world problems.</p>
-</section>
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <h1>Hi, I'm Akshaya</h1>
+      <h2 id="typing"></h2>
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="Akshaya_Resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </section>
 
-<section id="skills" class="skills">
-  <h2>Skills</h2>
-  <div class="skills-container">
-    <div class="skill-category">
-      <h3>Programming Languages</h3>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">SQL</div>
-    </div>
-    <div class="skill-category">
-      <h3>Data Analysis & Libraries</h3>
-      <div class="skill-card">Pandas</div>
-      <div class="skill-card">NumPy</div>
-      <div class="skill-card">Matplotlib</div>
-      <div class="skill-card">TensorFlow</div>
-    </div>
-    <div class="skill-category">
-      <h3>Tools & Platforms</h3>
-      <div class="skill-card">Jupyter Notebook</div>
-      <div class="skill-card">MySQL</div>
-      <div class="skill-card">VS Code</div>
-      <div class="skill-card">GitHub</div>
-      <div class="skill-card">MS Excel</div>
-    </div>
-    <div class="skill-category">
-      <h3>Specialized Skills</h3>
-      <div class="skill-card">Web Scraping (BeautifulSoup, Requests)</div>
-    </div>
-    <div class="skill-category">
-      <h3>Soft Skills</h3>
-      <div class="skill-card">Communication</div>
-      <div class="skill-card">Problem-solving</div>
-      <div class="skill-card">Leadership</div>
-      <div class="skill-card">Critical thinking</div>
-    </div>
-  </div>
-</section>
+  <!-- PROFILE -->
+  <section id="profile" class="profile section">
+    <h2>Profile</h2>
+    <p>
+      Results-driven B.Tech graduate specializing in Electronics & Communication Engineering 
+      with a strong foundation in AI and Machine Learning. Skilled in building automated 
+      solutions, analyzing complex data, and delivering measurable results in technical projects.
+    </p>
+  </section>
 
-<section id="experience" class="experience">
-  <h2>Professional Experience</h2>
-  <div class="experience-item">
-    <div class="experience-header">
-      <h3>Industrial Internship - APGENCO Thermal Power Plant</h3>
-      <span class="date">May 2024 - June 2024</span>
-    </div>
-    <p>Completed an industrial internship at APGENCO Thermal Power Plant, gaining hands-on experience in power generation, transmission, and distribution. Learned about the functioning of key components such as boilers, turbines, generators, and transformers in a coal-based thermal power station.</p>
-  </div>
-</section>
+  <!-- SKILLS -->
+  <section id="skills" class="skills section">
+    <h2>Skills</h2>
 
-<section id="projects" class="projects">
-  <h2>Projects</h2>
-  
-  <div class="project-card">
-    <h3>Flipkart Product Scraper: Dynamic Web Data Extraction for Any Mobile Phone</h3>
-    <ul>
-      <li>Developed a Python tool to scrape real-time product data from Flipkart, extracting up to 8 attributes (price, discount, rating, reviews, etc.) for any mobile phone in just seconds.</li>
-      <li>Automated CSV export enabled fast analysis of hundreds of product entries per run.</li>
-      <li>Utilized requests, BeautifulSoup, and pandas to ensure robust automation and easy analysis.</li>
-    </ul>
-    <div class="project-tags">
-      <span class="tag">Python</span>
-      <span class="tag">Web Scraping</span>
-      <span class="tag">BeautifulSoup</span>
-      <span class="tag">Pandas</span>
+    <div class="grid">
+      <div class="card">Python</div>
+      <div class="card">SQL</div>
+      <div class="card">Pandas</div>
+      <div class="card">NumPy</div>
+      <div class="card">Matplotlib</div>
+      <div class="card">TensorFlow</div>
+      <div class="card">Jupyter Notebook</div>
+      <div class="card">MySQL</div>
+      <div class="card">VS Code</div>
+      <div class="card">GitHub</div>
+      <div class="card">MS Excel</div>
+      <div class="card">Web Scraping (BeautifulSoup, Requests)</div>
+      <div class="card">Communication</div>
+      <div class="card">Problem-solving</div>
+      <div class="card">Leadership</div>
+      <div class="card">Critical Thinking</div>
     </div>
-  </div>
+  </section>
 
-  <div class="project-card">
-    <h3>Net Banking Python Application</h3>
-    <ul>
-      <li>Engineered Python modules to simulate banking operations.</li>
-      <li>Handled 100+ mock transactions with automated email notifications, ensuring 99% process accuracy during tests.</li>
-    </ul>
-    <div class="project-tags">
-      <span class="tag">Python</span>
-      <span class="tag">Banking Simulation</span>
-      <span class="tag">Email Automation</span>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience section">
+    <h2>Professional Experience</h2>
+
+    <div class="timeline-item">
+      <strong>APGENCO Thermal Power Plant — Internship (May 2024 – June 2024)</strong>
+      <p>
+        Gained hands-on exposure to power generation, transmission, and distribution. 
+        Learned the operation of boilers, turbines, generators, and transformers in a 
+        coal-based thermal power station.
+      </p>
     </div>
-  </div>
+  </section>
 
-  <div class="project-card">
-    <h3>Virtual Assistant Using Python</h3>
-    <ul>
-      <li>Built a voice-controlled assistant handling 20+ commands, streamlining task automation on local systems.</li>
-      <li>Used libraries: pyttsx3, speech_recognition, and OS modules for seamless functionality.</li>
-    </ul>
-    <div class="project-tags">
-      <span class="tag">Python</span>
-      <span class="tag">Voice Control</span>
-      <span class="tag">Automation</span>
-      <span class="tag">Speech Recognition</span>
+  <!-- PROJECTS -->
+  <section id="projects" class="projects section">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Flipkart Product Scraper</h3>
+      <p>
+        Built a Python scraper that extracts real-time product information from Flipkart, 
+        pulling up to 8 attributes including price, discount, ratings, and reviews. 
+        Automated CSV export for fast bulk analysis.
+      </p>
     </div>
-  </div>
-</section>
 
-<section id="certificates" class="certificates">
-  <h2>Certifications</h2>
-  <div class="cert-card">
-    <h3>Programming for Everybody</h3>
-    <p>Coursera</p>
-  </div>
-  <div class="cert-card">
-    <h3>Oracle Cloud Infrastructure 2025 AI Foundations Associate</h3>
-    <p>Oracle (1Z0-1122-25)</p>
-  </div>
-</section>
-
-<section id="education" class="education">
-  <h2>Education</h2>
-  <div class="education-item">
-    <div class="education-header">
-      <h3>B.Tech in Electronics and Communication Engineering</h3>
-      <span class="date">2021 - 2025</span>
+    <div class="card">
+      <h3>Net Banking Python Application</h3>
+      <p>
+        Developed a simulated banking system handling 100+ mock transactions with automated 
+        email notifications, ensuring 99% test accuracy.
+      </p>
     </div>
-    <p><strong>GITAM (Deemed to be a University)</strong></p>
-    <p>Percentage: 70%</p>
-    <p>Specialization: AI & Machine Learning</p>
-  </div>
-</section>
 
-<section id="timeline" class="timeline">
-  <h2>Timeline</h2>
-  <div class="timeline-item">
-    <span class="year">2025</span>
-    <p>B.Tech Graduation - GITAM University</p>
-  </div>
-  <div class="timeline-item">
-    <span class="year">2024</span>
-    <p>APGENCO Thermal Power Plant Internship</p>
-  </div>
-  <div class="timeline-item">
-    <span class="year">2024</span>
-    <p>Oracle Cloud Infrastructure AI Foundations Certification</p>
-  </div>
-  <div class="timeline-item">
-    <span class="year">2021</span>
-    <p>Started B.Tech in ECE at GITAM</p>
-  </div>
-</section>
+    <div class="card">
+      <h3>Virtual Assistant</h3>
+      <p>
+        Created a voice-controlled assistant capable of executing 20 commands using 
+        pyttsx3, speech_recognition, and OS modules for automation.
+      </p>
+    </div>
+  </section>
 
-<section id="contact" class="contact">
-  <h2>Get In Touch</h2>
-  <div class="contact-info">
-    <div class="contact-item">
-      <strong>Email:</strong> <a href="mailto:akshayapolagoni@gmail.com">akshayapolagoni@gmail.com</a>
-    </div>
-    <div class="contact-item">
-      <strong>Phone:</strong> <a href="tel:+918179704602">(+91) 8179704602</a>
-    </div>
-    <div class="contact-item">
-      <strong>GitHub:</strong> <a href="https://github.com/Akshaya1228" target="_blank" rel="noopener noreferrer">github.com/Akshaya1228</a>
-    </div>
-    <div class="contact-item">
-      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/akshaya-polagoni-5905872b2/" target="_blank" rel="noopener noreferrer">linkedin.com/in/akshaya-polagoni</a>
-    </div>
-  </div>
-</section>
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="certificates section">
+    <h2>Certificates</h2>
 
-<footer>
-  <p>&copy; 2025 Akshaya Polagoni. All rights reserved.</p>
-</footer>
+    <div class="card">Coursera — Programming for Everybody</div>
+    <div class="card">Oracle Cloud Infrastructure 2025 AI Foundations Associate</div>
+  </section>
 
-<script src="assets/js/particles.js"></script>
-<script src="assets/js/script.js"></script>
+  <!-- EDUCATION -->
+  <section id="education" class="education section">
+    <h2>Education</h2>
+    <div class="timeline-item">
+      <strong>B.Tech in Electronics and Communication Engineering</strong><br>
+      GITAM University (2021–2025) — 70%
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> akshayapolagoni@gmail.com</p>
+    <p><strong>Phone:</strong> (+91) 8179704602</p>
+    <p><a href="https://github.com/Akshaya1228" target="_blank">GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/akshaya-polagoni-5905872b2/" target="_blank">LinkedIn</a></p>
+  </section>
+
 </body>
 </html>
